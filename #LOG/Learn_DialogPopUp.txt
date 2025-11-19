@@ -1,0 +1,13 @@
+  const handleOK = () => {
+    setVisible(false);
+    setIsChecked(false);
+    setIsChecked2(false);
+     if (!isChecked && !isChecked2) {
+    Toast.show('Peringatan, Anda harus memilih salah satu checkbox', Toast.SHORT);}
+      else {
+       Toast.show('Downloaded!', Toast.SHORT);
+      }
+  };
+
+
+### boolean with, if else function 

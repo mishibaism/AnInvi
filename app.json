@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "AnInvi",
+    "slug": "AnInvi",
+    "scheme": "aninvi",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/b3sin_nobg.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/b3sin_nobg.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/b3sin_nobg.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "edgeToEdgeEnabled": true,
+    "package": "com.anonymous.AnInvi",
+    "intentFilters": [
+      {
+        "action": "VIEW",
+        "data": [
+          {
+            "scheme": "aninvi"
+          }
+        ],
+        "category": [
+          "BROWSABLE",
+          "DEFAULT"
+        ]
+      }
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d9f0ac86-c235-4034-ab2e-382f2eee61cd"
+      }
+    }
+  },
+  "web": {
+    "favicon": "./assets/favicon.png"
+  },
+  "plugins": [
+    "expo-sqlite",
+    "expo-notifications"
+  ],
+  "extra": {
+    "eas": {
+      "projectId": "d9f0ac86-c235-4034-ab2e-382f2eee61cd"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  // Matikan dukungan Java & Kotlin agar VS Code gak analisa plugin Android
+  "java.enabled": false,
+  "kotlin.enabled": false,
+
+  // Sembunyikan dan hentikan indexing node_modules & folder Gradle
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/.gradle": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/.gradle": true
+  },
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/.gradle/**": true
+  }
+}
